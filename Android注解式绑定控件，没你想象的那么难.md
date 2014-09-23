@@ -1,8 +1,5 @@
 <p>
-    Android开发中，有一个让人又爱又恨的方法叫findViewById(int);我想如果你是一民Android开发者，必然知道这个方法，让我们来看一下<span style="color: rgb(51, 51, 51); font-family: Verdana, sans-serif, 宋体; letter-spacing: 0.5px; line-height: 22.5px; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: Verdana, sans-serif, 宋体; letter-spacing: 0.5px; line-height: 22.5px; background-color: rgb(255, 255, 255);">KJFrameForAndroid框架是如何解决这个问题的。</span></span>
-</p>
-<p>
-    <span style="color: rgb(51, 51, 51); font-family: Verdana, sans-serif, 宋体; letter-spacing: 0.5px; line-height: 22.5px; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: Verdana, sans-serif, 宋体; letter-spacing: 0.5px; line-height: 22.5px; background-color: rgb(255, 255, 255);">KJFrameForAndroid框架</span>项目地址：</span><a target="_self" href="https://github.com/kymjs/KJFrameForAndroid" rel="nofollow">https://github.com/kymjs/KJFrameForAndroid</a>。
+    Android开发中，有一个让人又爱又恨的方法叫findViewById(int);我想如果你是一民Android开发者，必然知道这个方法。</span>
 </p>
 <p>
     为什么说<span style="line-height: 22.5px;">findViewById(int);</span>让人又爱又恨呢？想必大家也是很有感触。<br/>写一个布局，用Java代码写和用xml文件写，完成速度完全是无法比拟的。xml布局太方便了。<br/>同样的，想获取一个控件的对象，如果你是使用的xml布局文件写的布局，那么你必须调用findViewById()这个方法。<br/>
