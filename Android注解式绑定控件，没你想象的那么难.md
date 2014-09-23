@@ -1,3 +1,4 @@
+#Android注解式绑定控件，没你想象的那么难
 <p>
     Android开发中，有一个让人又爱又恨的方法叫findViewById(int);我想如果你是一民Android开发者，必然知道这个方法。</span>
 </p>
