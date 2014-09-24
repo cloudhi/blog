@@ -13,5 +13,6 @@ This repository will recorded my study notes. Thank you for reading.<br>
 2014-04-11 [Android学习笔记：调用系统Email](https://github.com/kymjs/blog/blob/master/%E8%B0%83%E7%94%A8%E7%B3%BB%E7%BB%9FEmail.md);<br>
 2014-04-01 [Android学习笔记：常用文件工具类](https://github.com/kymjs/blog/blob/master/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB.md);<br>
 2014-03-30 [NDK初试](https://github.com/kymjs/blog/blob/master/NDK%E5%88%9D%E8%AF%95.md);<br>
-2014-03-30 [android应用框架搭建------AppManager](https://github.com/kymjs/blog/blob/master/AppManager.md);<br>
-2014-03-30 【转】[读书与读完书](https://github.com/kymjs/blog/blob/master/AppManager.md);<br>
+2014-03-22 [android应用框架搭建------AppManager](https://github.com/kymjs/blog/blob/master/AppManager.md);<br>
+2014-02-01 【转】[读书与读完书](https://github.com/kymjs/blog/blob/master/%E3%80%90%E8%BD%AC%E3%80%91%E8%AF%BB%E4%B9%A6%E4%B8%8E%E8%AF%BB%E5%AE%8C%E4%B9%A6.md);<br>
+2013-12-29 [JAVA获取系统时间](https://github.com/kymjs/blog/blob/master/%E3%80%90%E8%BD%AC%E3%80%91%E8%AF%BB%E4%B9%A6%E4%B8%8E%E8%AF%BB%E5%AE%8C%E4%B9%A6.md);<br>
