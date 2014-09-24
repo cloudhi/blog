@@ -1,7 +1,7 @@
 #深入理解AsyncTask类线程封装
 *本篇文章主要面向有一定Android基础的人，如果你还刚入门，这篇文章看起来可能会比较吃力，希望你能学到新东西。*
 <p>
-    在Android开发中，由于不能再UI线程中做耗时操作，常常需要开启线程来做一些操作。但是这样一来就产生了一个问题，就是大量的线程并发执行，造成了线程维护的开销进而使得代码质量下降手机发烫又耗电。让我们来看一下KJFrameForAndroid框架是如何解决这个问题的。<br/>KJFrameForAndroid框架项目地址：<a target="_blank" href="https://github.com/kymjs/KJFrameForAndroid" rel="nofollow">https://github.com/kymjs/KJFrameForAndroid</a>。
+    在Android开发中，由于不能再UI线程中做耗时操作，常常需要开启线程来做一些操作。但是这样一来就产生了一个问题，就是大量的线程并发执行，造成了线程维护的开销进而使得代码质量下降手机发烫又耗电。让我们来看一下KJFrameForAndroid框架是如何解决这个问题的。
 </p>
 <p>
     其实Android提供了一套专门用于异步处理的类,就是我们熟悉又模式的AsynTask类。<br/>AsynTask类就是对Thread类的一个封装，并且加入了一些新的方法。那么我们先来看一下它对于Thread请求的一系列管理与封装。<br/>在jdk中有这样一个集合类叫：BlockingQueue&lt;&gt;它是一个 Queue&lt;E&gt;的子类，支持两个附加操作的 Queue，这两个操作是：获取元素时等待队列变为非空，以及存储元素时等待空间变得可用。 <br/>BlockingQueue 方法以四种形式出现，对于不能立即满足但可能在将来某一时刻可以满足的操作，这四种形式的处理方式不同：第一种是抛出一个异常，第二种是返回一个特殊值（null 或 false，具体取决于操作），第三种是在操作可以成功前，无限期地阻塞当前线程，第四种是在放弃前只在给定的最大时间限制内阻塞。
