@@ -8,4 +8,6 @@ This repository will recorded my study notes. Thank you for reading.<br>
 2014-07-17 [Android高效加载Bitmap](https://github.com/kymjs/blog/blob/master/%E9%AB%98%E6%95%88%E5%8A%A0%E8%BD%BDBitmap.md);<br>
 2014-05-29 [Android布局技巧之屏幕适配](https://github.com/kymjs/blog/blob/master/Android%E5%B8%83%E5%B1%80%E6%8A%80%E5%B7%A7%E4%B9%8B%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D.md);<br>
 2014-05-04 [做ThoughtWorks面试题的感悟](https://github.com/kymjs/blog/blob/master/%E5%81%9AThoughtWorks%E9%9D%A2%E8%AF%95%E9%A2%98%E7%9A%84%E6%84%9F%E6%82%9F.md);<br>
-2014-04-18 [Android学习笔记：获取手机IP](https://github.com/kymjs/blog/blob/master/%E5%81%9AThoughtWorks%E9%9D%A2%E8%AF%95%E9%A2%98%E7%9A%84%E6%84%9F%E6%82%9F.md);<br>
+2014-04-18 [Android学习笔记：获取手机IP](https://github.com/kymjs/blog/blob/master/%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BAIP.md);<br>
+2014-04-17 [Android学习笔记：软键盘弹出后屏幕适配](https://github.com/kymjs/blog/blob/master/%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BAIP.md);<br>
+2014-04-17 [Android学习笔记：调用系统Email](https://github.com/kymjs/blog/blob/master/%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BAIP.md);<br>
