@@ -15,4 +15,5 @@ This repository will recorded my study notes. Thank you for reading.<br>
 2014-03-30 [NDK初试](https://github.com/kymjs/blog/blob/master/NDK%E5%88%9D%E8%AF%95.md);<br>
 2014-03-22 [android应用框架搭建------AppManager](https://github.com/kymjs/blog/blob/master/AppManager.md);<br>
 2014-02-01 【转】[读书与读完书](https://github.com/kymjs/blog/blob/master/%E3%80%90%E8%BD%AC%E3%80%91%E8%AF%BB%E4%B9%A6%E4%B8%8E%E8%AF%BB%E5%AE%8C%E4%B9%A6.md);<br>
-2013-12-29 [JAVA获取系统时间](https://github.com/kymjs/blog/blob/master/%E3%80%90%E8%BD%AC%E3%80%91%E8%AF%BB%E4%B9%A6%E4%B8%8E%E8%AF%BB%E5%AE%8C%E4%B9%A6.md);<br>
+2013-12-29 [JAVA获取系统时间](https://github.com/kymjs/blog/blob/master/JAVA%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4.md);<br>
+2013-12-29 [OSC@GIT使用，图形界面版](https://github.com/kymjs/blog/blob/master/JAVA%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4.md);<br>
