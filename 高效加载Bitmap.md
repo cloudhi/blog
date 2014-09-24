@@ -1,4 +1,4 @@
-#高效加载Bitmap，有效解决加载Bitmap时出现OOM的问题
+#高效加载Bitmap，有效解决出现OOM的问题
 <p>
     我们在写Android程序的时候，肯定会用到很多图片。那么对于图片的压缩处理自然是必不可少。为什么要压缩？我想这个问题不必在强调了，每个人在最初学习Android的时候肯定都会知道这么一个原因：我们编写的应用程序都是有一个最大内存限制，其中JAVA程序和C程序（NDK调用时）共享这一块内存大小，程序占用了过高的内存就容易出现OOM(OutOfMemory)异常。至于这个最大内存是多少，我们可以通过调用Runtime.getRuntime().maxMemory()方法验证一下。<br/><br/>正因为受到内存大小限制这一关键原因（其实不止这个原因，我想一张1M的图片和一张10k的图片，载入的速度必然也是不同的吧）。 如果你的控件大小只有40*40像素的大小，只是为了显示一张缩略图，这时候把一张1024*768像素的图片完全加载到内存中显然是不值得的，因此我们都会对图片做压缩处理。<br/><br/>BitmapFactory这个类提供了多个方法(decodeByteArray, decodeFile, decodeResource等)用于创建Bitmap对象，我们可以根据图片的来源选择合适的方法。然而这些方法会为已经读取的bitmap分配内存，这时如果是一张非常大的图片就会导致OOM出现。为此，每一种解析方法都提供了一个BitmapFactory.Options参数，可以通过将这个参数的inJustDecodeBounds属性设置为true就可以让解析方法禁止为bitmap分配内存，但是如此设置后BitmapFactory的返回值也不再是一个Bitmap对象，而是null。虽然Bitmap是null了，但是BitmapFactory.Options的outWidth、outHeight和outMimeType属性都会被赋值。使用这个技巧让我们可以在加载图片之前就获取到图片的长宽值和类型，从而根据情况对图片进行压缩。<br/>
 </p>
