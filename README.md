@@ -9,5 +9,7 @@ This repository will recorded my study notes. Thank you for reading.<br>
 2014-05-29 [Android布局技巧之屏幕适配](https://github.com/kymjs/blog/blob/master/Android%E5%B8%83%E5%B1%80%E6%8A%80%E5%B7%A7%E4%B9%8B%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D.md);<br>
 2014-05-04 [做ThoughtWorks面试题的感悟](https://github.com/kymjs/blog/blob/master/%E5%81%9AThoughtWorks%E9%9D%A2%E8%AF%95%E9%A2%98%E7%9A%84%E6%84%9F%E6%82%9F.md);<br>
 2014-04-18 [Android学习笔记：获取手机IP](https://github.com/kymjs/blog/blob/master/%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BAIP.md);<br>
-2014-04-17 [Android学习笔记：软键盘弹出后屏幕适配](https://github.com/kymjs/blog/blob/master/%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BAIP.md);<br>
-2014-04-17 [Android学习笔记：调用系统Email](https://github.com/kymjs/blog/blob/master/%E8%8E%B7%E5%8F%96%E6%89%8B%E6%9C%BAIP.md);<br>
+2014-04-17 [Android学习笔记：软键盘弹出后屏幕适配](https://github.com/kymjs/blog/blob/master/%E8%BD%AF%E9%94%AE%E7%9B%98%E5%BC%B9%E5%87%BA%E5%90%8E%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D.md);<br>
+2014-04-11 [Android学习笔记：调用系统Email](https://github.com/kymjs/blog/blob/master/%E8%B0%83%E7%94%A8%E7%B3%BB%E7%BB%9FEmail.md);<br>
+2014-04-01 [Android学习笔记：常用文件工具类](https://github.com/kymjs/blog/blob/master/%E8%B0%83%E7%94%A8%E7%B3%BB%E7%BB%9FEmail.md);<br>
+2014-03-30 [NDK初试](https://github.com/kymjs/blog/blob/master/%E8%B0%83%E7%94%A8%E7%B3%BB%E7%BB%9FEmail.md);<br>
